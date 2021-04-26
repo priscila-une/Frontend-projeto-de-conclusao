@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    color: black;
+}
+
+header{
+    height: 80vh;
+    width: 100vw;
+    background: url("https://diariodorio.com/wp-content/uploads/2021/02/rio-de-janeiro-2.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    color: white;  
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.336);
+    border-radius: 5px;
+    padding: 20px;   
+}
+
+nav li a{
+    font-size: 1.5em;
+    margin: 10px;
+    color: white;
+    text-transform: uppercase;
+     
+}
+
+nav li:hover{
+    background-color: #28abb9;
+    transition: 0.5s;
+}
+
+.title{
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 1px 2px black;
+}
+
+.subtitle{
+    font-size: 2.8em;
+    color: #54e346;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.button{
+    margin: 80px 0;
+    
+}
+
+.inscrever{
+    padding: 20px 40px;    
+    text-align: center;
+    background: #28abb9;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 10px black;
+    
+}
+
+.inscrever:hover{
+    background-color: #01c5c4;
+    border: 1px solid black;
+    
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    line-height: 30px;
+    
+}
+
+#principal{
+    background: #ec582b;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height:fit-content;
+    padding: 20px 0;
+
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}   
+.title-palestrantes{
+    color: white;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.sub-palestrantes{
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 50px;
+}
+    
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    justify-content: center;
+    padding-top: 50px;
+    line-height: 30px;
+    justify-items: center;
+}
+
+.card{
+    width: 250px;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin: 0 20px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.521);    
+}
+
+.card:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+}
+
+footer{
+    margin: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+}
+
+.title-dados{
+    color:#ec582b;
+    text-align: center;
+    font-size: 2rem;
+}
+
+form label{
+    color: black;
+    font-weight: bold;   
+}
+
+form input{
+    height: 40px;
+    margin: 10px 0;
+}
+
+#botao-inscricao{
+    background-color: #28abb9;
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#botao-inscricao:hover{
+    background-color: #01c5c4;
+    transform: scale(1.2);
+    transition: 0.5s;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Projeto de Conclusão Front-end</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" id="about-button">Sobre</a></li>
+                <li><a href="#principal">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <h1 class="title">ANIMAIS CONF</h1>
+        <h2 class="subtitle">30 MAIO | RIO</h2>
+        <section class="button">
+            <a class="inscrever" href="#form">Inscreva-se</a>
+        </section>
+    </header> 
+    <section id="about">
+        <h2>Muito conteúdo: do frontend ao backend</h2>
+        <h4>30 de maio de 2017 - na cidade maravilhosa</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tempora! 
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi reiciendis officia enim harum dignissimos pariatur?</p>       
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, commodi.</p>       
+    </section>
+    <main id="principal">
+        <h2 class="title-palestrantes">Palestrantes</h2>
+        <p class="sub-palestrantes">Aprenda com palestrantes que são referência no mercado</p>
+        <div class="cards">
+            <div class="card-1 card" >
+                <img src="img/coruja.jpeg" alt="foto-bear" class="imagem">
+                <figcaption>Senhor Coruja</figcaption>
+                <strong>Dev Instutor</strong>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-2 card">
+                <img src="img/deer.jpeg" alt="foto-coruja" class="imagem">
+                <p>Senhorita Deer</p>
+                <strong>Dev Instutor</strong>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-3 card">
+                <img src="img/fox.jpeg" alt="foto-raposa" class="imagem">
+                <p>Fox </p>
+                <strong>Dev Instutor</strong>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-4 card">
+                <img src="img/gato.jpeg" alt="foto-gatinho" class="imagem">
+                <p>Pequeno Kitten</p>
+                <strong>Dev Instutor</strong>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-5 card">
+                <img src="img/passarinho.jpeg" alt="foto-passarinho" class="imagem">
+                <p>Beija-flor</p>
+                <strong>Dev Instutor</strong>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card-6 card">
+                <img src="img/pexels-photo-148182.jpeg" alt="bear" class="imagem">
+                <p>Urso</p>
+                <strong>Dev Instutor</strong>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <form id="form"> 
+            <h2 class="title-dados">Seus Dados</h2>
+            <label for="name">Nome </label>
+            <input type="text" id="name" name="name"  placeholder="Digite o seu nome" required>
+            <label for="email">Email </label>
+            <input type="email" id="email" name="email" placeholder="seuemail@dominio.com" required>
+            <input type="submit" value="Realizar Inscrição" id="botao-inscricao"> 
+        </form>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
